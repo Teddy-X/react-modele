@@ -16,9 +16,9 @@ Première utilisation
 Récupérez une copie du modèle :
 
 ```sh
-git clone git@github.com:O-clock-X/React-modele.git
+git clone git@github.com:Teddy-X/react-modele.git
 
-cd React-modele
+cd react-modele
 
 # installe les dépendances du projet
 yarn 
@@ -50,11 +50,11 @@ cd mon-challenge
 
 # copie des fichiers cachés et non-cachés présents à la racine du modèle
 # note : des alertes sont affichées à propos de dossiers ignorés, c'est normal
-cp -n ../React-modele/{.*,*} .
+cp -n ../react-modele/{.*,*} .
 
 # copie (récursive) des dossiers src/, config/ et public/
 # note : des alertes sont affichées à propos de dossiers ignorés, c'est normal
-cp -rn ../React-modele/{src,config,public,tests} .
+cp -rn ../react-modele/{src,config,public,tests} .
 
 # installation des dépendances listées dans le package.json
 yarn
